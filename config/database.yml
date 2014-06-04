@@ -1,0 +1,24 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: first_app_development
+  pool: 5
+  username: riverbryant
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: first_app_test
+  pool: 5
+  username: riverbryant
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: first_app_production
+  pool: 5
+  username: riverbryant
+  password:
